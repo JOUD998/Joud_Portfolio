@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Multilingual Website</title>
+    <style>
+        /* Basic CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline;
+            margin-right: 10px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="setLanguage('en')">English</a></li>
+            <li><a href="#" onclick="setLanguage('es')">Español</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1 id="heading">Welcome</h1>
+        <p id="content">This is a simple multilingual website.</p>
+    </div>
+
+    <script>
+        // JavaScript function to set the language
+        function setLanguage(lang) {
+            const languageStrings = {
+                'en': {
+                    'heading': 'Welcome',
+                    'content': 'This is a simple multilingual website.'
+                },
+                'es': {
+                    'heading': 'Bienvenido',
+                    'content': 'Este es un sitio web multilingüe simple.'
+                }
+            };
+
+            // Update content based on selected language
+            document.getElementById('content').innerText = languageStrings[lang]['content'];
+
+            // Set the HTML lang attribute for screen readers
+            document.documentElement.lang = lang;
+        }
+    </script>
+</body>
+</html>
