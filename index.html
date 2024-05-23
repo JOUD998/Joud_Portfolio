@@ -25,6 +25,11 @@
 
 <body>
 
+
+  
+
+
+
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
@@ -38,6 +43,8 @@
           <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
           <li><a class="nav-link scrollto " href="#achievements">Achievements</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <!-- <li><button id="languageToggle" onclick="toggleLanguage()" class="nav-link scrollto active">EN</button></li> -->
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -62,6 +69,20 @@
 
   <main id="main">
 
+    <ul>
+      <li><a href="index.html" onclick="changeLanguage('en')">English</a></li>
+      <li><a href="index.html" onclick="changeLanguage('de')">Deutsch</a></li>
+
+
+      <button id="languageButton" class="lang-btn">English</button>
+
+    </ul>
+
+    <h1 data-i18n="welcome_message"></h1>
+    <p data-i18n="about_us"></p>
+
+
+
     <!-- ======= About Section ======= -->
     <section id="about" class="about-mf sect-pt4 route">
       <div class="container">
@@ -75,8 +96,7 @@
                     <div class="skill-mf">
                     
                       <div class="title-box-3">
-                        <h5 class="title-left-1">
-                          Skills
+                        <h5 class="title-left-1" data-i18n="skills">
                         </h5>
                       </div>
                                         
@@ -152,26 +172,21 @@
 
                   <div class="interests-mf">
                     <div class="title-box-3">
-                      <h5 class="title-left-1">
-                        Interests
+                      <h5 class="title-left-1" data-i18n="interests">
                       </h5>
                     </div>
-                    <p class="lead">
-                      Joud Nassar, a Software Engineer with a zest for diverse interests, finds joy in coding challenges, exploring emerging technologies, and delving into the world of mobile telecom. Passionate about continuous learning, Joud embraces creativity in problem-solving and innovation.                    </p>
+                    <p class="lead" id="mylead" data-i18n="interests-body">
                   </div>
 
                 </div>
                 <div class="col-md-6">
                   <div class="about-me pt-4 pt-md-0">
                     <div class="title-box-2">
-                      <h5 class="title-left">
-                        Who am I?
+                      <h5 class="title-left" data-i18n="who-am-i">
+                        
                       </h5>
                     </div>
-                    <p class="lead">
-                      Joud Nassar, a dedicated Software Engineer, holds a degree from Damascus University and contributes significantly to the tech landscape as a Full Stack Developer at Syriatel mobile telecom.
-                      Passionate about creating seamless and efficient software solutions, Joud is committed to staying at the forefront of technological advancements. Through expertise acquired at Damascus University and professional experience at Syriatel, Joud stands out as a valuable asset, continually evolving in the dynamic realm of software engineering.
-                      With a robust educational foundation, Joud brings a versatile skill set to the field, adept in both front-end and back-end technologies.
+                    <p class="lead" data-i18n="who-am-i-body">
                     </p>
                    
                   </div>
@@ -226,12 +241,12 @@
     </div>
   </div>
   <!-- End Testimonials Section -->
-  
-  
+
+
 
   <section id="projects" class="projects-mf sect-pt4 route">
 
-    
+
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -243,12 +258,12 @@
         </div>
       </div>
 
-      
+
       <div class="scroller-container">
         <div class="scroller">
 
           <div class="card card-projects">
-            <div class="card-img"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></div>
+            <div class="card-img"><img src="assets/img/1.jpg" alt="" class="img-fluid"></div>
 
             <div class="card-body">
               <div class="card-category-box">
@@ -290,7 +305,7 @@
             </div>
           </div>
 
-    
+
           <div class="card card-projects">
             <div class="card-img"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></div>
 
@@ -311,7 +326,7 @@
                 <a href="${project.github_link}" target="_blank">Explore the project on GitHub</a>
               </div>
             </div>
-          </div> 
+          </div>
 
            <div class="card card-projects">
             <div class="card-img"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></div>
@@ -333,7 +348,7 @@
                 <a href="${project.github_link}" target="_blank">Explore the project on GitHub</a>
               </div>
             </div>
-          </div> 
+          </div>
           <div class="card card-projects">
             <div class="card-img"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></div>
 
@@ -354,8 +369,8 @@
                 <a href="${project.github_link}" target="_blank">Explore the project on GitHub</a>
               </div>
             </div>
-          </div> 
-          
+          </div>
+
           <!-- <div class="card">
             <img src="image2.jpg" alt="Product 2">
             <p>Description 2</p>
@@ -371,8 +386,8 @@
           <!-- Add more cards as needed -->
         </div>
       </div>
-    
-    
+
+
 
 
 
@@ -386,6 +401,7 @@
 
 
 
+</div>
 
   </section>
 
@@ -602,11 +618,15 @@
 
 <!-- Link to the separate custom script -->
 <script src="assets/js//interactive-element.js"></script>
+<!-- <script src="language.js"></script> -->
 
 
 <!--projects section scripts-->
 <script src="projectData.js"></script>
 <script src="projectScript.js"></script>
+
+<script src="assets/js/languages/script.js"></script>
+
 
 </body>
 
