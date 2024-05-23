@@ -44,7 +44,7 @@ async function changeLanguage() {
 
     // Update button text
     const button = document.getElementById('languageButton');
-    button.innerText = currentLanguage === 'en' ? 'English' : 'Deutsch';
+    button.innerText = currentLanguage === 'en' ? 'EN' : 'DE';
 
     // Toggle Arabic stylesheet if necessary
     toggleArabicStylesheet(currentLanguage);
@@ -75,7 +75,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     // Set initial button text
     const button = document.getElementById('languageButton');
-    button.innerText = currentLanguage === 'en' ? 'English' : 'Deutsch';
+    button.innerText = currentLanguage === 'en' ? 'EN' : 'DE';
     button.classList.add(currentLanguage === 'en' ? 'english' : 'deutsch');
 
     // Add event listener to the button

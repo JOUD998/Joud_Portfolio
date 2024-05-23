@@ -532,6 +532,23 @@ a:hover {
   line-height: 0;
   margin-left: 5px;
 }
+.nav-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0;
+  white-space: nowrap;
+  transition: 0.3s;
+  letter-spacing: 0.4px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+
+
 
 .navbar>ul>li>a:before {
   content: "";
@@ -1511,7 +1528,7 @@ footer .credits a {
   margin-right: 20px;
   height: 440px;
 
-} */
+}
 
  .card img {
   max-width: 100%;
