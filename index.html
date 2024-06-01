@@ -264,8 +264,9 @@
                 <div class="scroller">
 
                     <div class="card card-projects">
-                        <div class="card-img"><img src="assets/img/1.jpg" alt="" class="img-fluid"></div>
-
+                        <div class="card-img">
+                            <img src="assets/img/1.jpg" alt="" class="img-fluid">
+                        </div>
                         <div class="card-body">
                             <div class="card-category-box">
                                 <div class="card-category">
@@ -275,7 +276,6 @@
                             <h3 class="card-title">Ideas About Travel Application</h3>
                             <p class="card-description">Embark on a journey of seamless</p>
                             <p class="card-description">Embark on a journey of seamless</p>
-
                         </div>
                         <div class="card-footer">
                             <div class="post-author">
@@ -284,8 +284,10 @@
                             </div>
                         </div>
                     </div>
+
+
                     <div class="card card-projects">
-                        <div class="card-img"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></div>
+                        <div class="card-img"><img src="assets/img/overlay-bg.jpg" alt="" class="img-fluid"></div>
 
                         <div class="card-body">
                             <div class="card-category-box">
@@ -465,6 +467,8 @@
 
 
     <!-- ======= Contact Section ======= -->
+<!--    <form id="contact-form">-->
+
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route"
              style="background-image: url(assets/img/overlay-bg.jpg)">
         <div class="overlay-mf"></div>
@@ -472,7 +476,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="contact-mf">
-                        <div id="contact" class="box-shadow-full">
+                        <div id="contact cont" class="box-shadow-full">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="title-box-2">
@@ -483,47 +487,38 @@
                                     </div>
 
                                     <div>
-                                        <form action="forms/contact.php" method="post" role="form"
-                                              class="php-email-form">
+                                        <form id="contact-form">
                                             <div class="row">
                                                 <div class="col-md-12 mb-3">
                                                     <div class="form-group">
-                                                        <input type="text" name="name" class="form-control" id="name"
-                                                               placeholder="Your Name" required>
+                                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12 mb-3">
                                                     <div class="form-group">
-                                                        <input type="email" class="form-control" name="email" id="email"
-                                                               placeholder="Your Email" required>
+                                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12 mb-3">
                                                     <div class="form-group">
-                                                        <input type="text" class="form-control" name="subject"
-                                                               id="subject" placeholder="Subject" required>
+                                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <textarea class="form-control" name="message" rows="5"
-                                                                  placeholder="Message" required></textarea>
+                                                        <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" required></textarea>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12 text-center my-3">
-                                                    <div class="loading">Loading</div>
                                                     <div class="error-message"></div>
-                                                    <div class="sent-message">Your message has been sent. Thank you!
-                                                    </div>
+                                                    <div class="sent-message"></div>
                                                 </div>
                                                 <div class="col-md-12 text-center">
-                                                    <button type="submit"
-                                                            class="button button-a button-big button-rouded">Send
-                                                        Message
-                                                    </button>
+                                                    <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
                                                 </div>
                                             </div>
                                         </form>
+
                                     </div>
 
 
@@ -588,6 +583,7 @@
             </div>
         </div>
     </section><!-- End Contact Section -->
+<!--    </form>-->
 
 </main><!-- End #main -->
 
@@ -637,6 +633,10 @@
 <script src="projectScript.js"></script>
 
 <script src="assets/js/languages/script.js"></script>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+<script src="assets/js/contact_me.js"></script>
 
 
 </body>
