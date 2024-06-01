@@ -1,7 +1,7 @@
 
 
 (function () {
-    emailjs.init('HjgZaugqwfxf845dg');  // Replace with your actual User ID
+    emailjs.init('');  // Replace with your actual User ID
 })();
 
 document.getElementById('contact-form').addEventListener('submit', function (event) {
@@ -15,7 +15,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     };
 
     // Send the email using EmailJS
-    emailjs.send('service_5ftamdh', 'template_4ln1wvk', params)
+    emailjs.send('', '', params)
         .then(function (response) {
             console.log('SUCCESS!', response.status, response.text);
             alert('Message sent successfully!');
