@@ -1527,12 +1527,39 @@ footer .credits a {
   width: 400px;
   margin-right: 20px;
   height: 440px;
-
 }
 
- .card img {
-  max-width: 100%;
-  height: auto;
+.img-fluid{
+  width: 100%;
+  height: 265px;
 }
+
+
+
+.scroller-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .scroller {
+    display: flex;
+  }
+
+  .card {
+    flex: 0 0 auto;
+    width: 400px;
+    margin-right: 20px;
+    height: 440px;
+  }
+
+.avatar {
+  width: 26px;
+  height: 26px;
+  margin-right: 4px;
+  overflow: hidden;
+}
+  /* Ensure image covers the entire container */
+
+
 
 
