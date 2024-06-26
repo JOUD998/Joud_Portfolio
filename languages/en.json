@@ -2,18 +2,43 @@
     "title": "Home",
     "welcome_message": "Welcome to our website!",
     "about_us": "Learn more about us and our services.",
-    "footer_text": "© 2023 Your Company. All rights reserved.",
     "skills": "Skills",
     "interests": "Interests",
-    "interests-body": "Joud Nassar, a Software Engineer with a zest for diverse interests, finds joy in coding challenges, exploring emerging technologies, and delving into the world of mobile telecom. Passionate about continuous learning, Joud embraces creativity in problem-solving and innovation.",
-    "who-am-i": "Who Am I?",
-    "who-am-i-body": "Joud Nassar, a dedicated Software Engineer, holds a degree from Damascus University and contributes significantly to the tech landscape as a Full Stack Developer at Syriatel mobile telecom. Passionate about creating seamless and efficient software solutions, Joud is committed to staying at the forefront of technological advancements. Through expertise acquired at Damascus University and professional experience at Syriatel, Joud stands out as a valuable asset, continually evolving in the dynamic realm of software engineering. With a robust educational foundation, Joud brings a versatile skill set to the field, adept in both front-end and back-end technologies."
-    
+    "interests_body": "Joud Nassar, a Software Engineer with a zest for diverse interests, finds joy in coding challenges, exploring emerging technologies, and delving into the world of mobile telecom. Passionate about continuous learning, Joud embraces creativity in problem-solving and innovation.",
+    "who_am_i": "Who Am I?",
+    "who_am_i_body": "Joud Nassar, a dedicated Software Engineer, holds a degree from Damascus University and contributes significantly to the tech landscape as a Full Stack Developer at Syriatel mobile telecom. Passionate about creating seamless and efficient software solutions, Joud is committed to staying at the forefront of technological advancements. Through expertise acquired at Damascus University and professional experience at Syriatel, Joud stands out as a valuable asset, continually evolving in the dynamic realm of software engineering. With a robust educational foundation, Joud brings a versatile skill set to the field, adept in both front-end and back-end technologies.",
+    "my_name": "I am Joud Nassar",
+    "career": "",
+    "message_me": "Message me",
+    "get_in_touch": "Get in Touch",
+    "get_in_touch_description": "Hello, I'm Joud Nassar, based in Damascus. As a professional in Software Engineering, I'm readily available for connections and discussions about our shared interests. Looking forward to hearing from you.",
+    "sender_name_hint": "Your Name",
+    "sender_email_hint": "Your Email",
+    "sender_subject_hint": "Subject",
+    "sender_message_hint": "Message",
+    "sender_message_button": "Send Message",
+    "footer_text": "Designed by Joud Nassar",
+    "achievements": "ACHIEVEMENTS",
+    "projects": "Projects",
+    "look_at_my_project": "Feel free to take a look at my projects",
+    "educational_background": "EDUCATIONAL BACKGROUND",
+    "educational_background_description": "I hold a degree in Software Engineering from Damascus University, Syria, empowering me with a strong foundation for innovative problem-solving in tech.",
+    "work_experience": "WORK EXPERIENCE",
+    "work_experience_description": "With a focus on excellence, I thrive as a Full Stack Developer at Syriatel mobile telecom, contributing innovative solutions and leveraging my skills to advance technology in the dynamic telecom.",
+    "languages": "LANGUAGES",
+    "languages_description": "Arabic: <b>Native</b>\nEnglish: <b>B2</b> level\nGerman: <b>B2</b> level",
+    "testimonials_description_1": "Joud Nassar, a skilled Software Engineer, combines technical expertise with\na passion for innovation, creating impactful solutions in the digital realm.",
+    "explore_gitHub": "Explore the project on GitHub",
+    "project1_description": "en1",
+    "project2_description": "en2",
+    "project3_description": "en3",
+    "project4_description": "en4",
+    "project5_description": "en5",
+    "contact": "Contact",
+    "contact_header": "Contact",
+    "achievements_header": "Achievements",
+    "projects_header": "Projects",
+    "about_header": "About",
+    "home_header": "Home"
 
-
-    
-
-    
-    
-  }
-  
+}

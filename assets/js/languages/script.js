@@ -1,10 +1,33 @@
-
 let currentLanguage = 'en';
+
+
+window.addEventListener('DOMContentLoaded', async () => {
+    currentLanguage = localStorage.getItem('language') || 'en'; //get from here
+    const langData = await fetchLanguageData(currentLanguage);
+    updateContent(langData);
+
+    // Set initial button text
+    const button = document.getElementById('languageButton');
+
+
+    // Select the button element
+    let button1 = document.querySelector('#languageButton');
+
+    button.innerText = currentLanguage === 'en' ? 'DE' : 'EN';
+    button.classList.add(currentLanguage === 'en' ? 'english' : 'deutsch');
+
+    // Add event listener to the button
+    button.addEventListener('click', changeLanguage);
+
+    // Toggle Arabic stylesheet if necessary
+    // toggleArabicStylesheet(currentLanguage);
+});
+
+
 
 // Function to fetch language data
 async function fetchLanguageData(lang) {
     try {
-        console.log(`Fetching data from: languages/${lang}.json`);
         const response = await fetch(`languages/${lang}.json`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -12,7 +35,7 @@ async function fetchLanguageData(lang) {
         return await response.json();
     } catch (error) {
         console.error('Error fetching language data:', error);
-        return {}; // Return an empty object or handle the error appropriately
+        return {};
     }
 }
 
@@ -24,10 +47,18 @@ function setLanguagePreference(lang) {
 
 // Function to update content based on selected language
 function updateContent(langData) {
+
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
-        element.textContent = langData[key];
-    });
+
+        let value = langData[key];
+        value = value.replace(/\n/g, '<br>');
+
+        if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+            element.placeholder = value;
+        } else {
+            element.innerHTML = value;
+        } });
 }
 
 // Function to change language
@@ -50,37 +81,5 @@ async function changeLanguage() {
     toggleArabicStylesheet(currentLanguage);
 }
 
-// Function to toggle Arabic stylesheet based on language selection
-// function toggleArabicStylesheet(lang) {
-//     const head = document.querySelector('head');
-//     const link = document.querySelector('#styles-link');
 
-//     if (link) {
-//         head.removeChild(link); // Remove the old stylesheet link
-//     }
-//     if (lang === 'ar') {
-//         const newLink = document.createElement('link');
-//         newLink.id = 'styles-link';
-//         newLink.rel = 'stylesheet';
-//         newLink.href = './assets/css/style-ar.css'; // Path to Arabic stylesheet
-//         head.appendChild(newLink);
-//     }
-// }
 
-// Call updateContent() on page load
-window.addEventListener('DOMContentLoaded', async () => {
-    currentLanguage = localStorage.getItem('language') || 'en';
-    const langData = await fetchLanguageData(currentLanguage);
-    updateContent(langData);
-
-    // Set initial button text
-    const button = document.getElementById('languageButton');
-    button.innerText = currentLanguage === 'en' ? 'EN' : 'DE';
-    button.classList.add(currentLanguage === 'en' ? 'english' : 'deutsch');
-
-    // Add event listener to the button
-    button.addEventListener('click', changeLanguage);
-
-    // Toggle Arabic stylesheet if necessary
-    toggleArabicStylesheet(currentLanguage);
-});

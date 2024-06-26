@@ -1,73 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Multilingual Website</title>
-    <style>
-        /* Basic CSS styling */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        nav {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-        }
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-        li {
-            display: inline;
-            margin-right: 10px;
-        }
-        a {
-            color: #fff;
-            text-decoration: none;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-    </style>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#" onclick="setLanguage('en')">English</a></li>
-            <li><a href="#" onclick="setLanguage('es')">Español</a></li>
-        </ul>
-    </nav>
+<section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route"
+         style="background-image: url(assets/img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
     <div class="container">
-        <h1 id="heading">Welcome</h1>
-        <p id="content">This is a simple multilingual website.</p>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-mf">
+                    <div id="contact cont" class="box-shadow-full">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="title-box-2">
+                                    <h5 class="title-left" data-i18n="title-left">
+                                        Message me
+                                    </h5>
+                                </div>
+
+                                <div>
+                                    <form id="contact-form">
+                                        <div class="row">
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" required></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 text-center my-3">
+                                                <div class="error-message"></div>
+                                                <div class="sent-message"></div>
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="title-box-2 pt-4 pt-md-0">
+                                    <h5 class="title-left" data-i18n="title-left">
+                                        Get in Touch
+                                    </h5>
+                                </div>
+                                <div class="more-info">
+                                    <p class="lead">
+                                        Hello, I'm Joud Nassar, based in Damascus. As a professional in Software
+                                        Engineering, I'm readily available for connections and discussions about our
+                                        shared interests. Looking forward to hearing from you.
+                                    </p>
+                                    <ul class="list-ico">
+                                        <li><span class="bi bi-geo-alt"></span> Damascus, Al Qassaa, Gibran Khalil
+                                            Gibran Street
+                                        </li>
+                                        <li><span class="bi bi-phone"></span> (963) 937731544</li>
+                                        <li><span class="bi bi-envelope"></span> joudnassar.19.9@gmail.com</li>
+                                    </ul>
+                                </div>
+                                <div class="socials">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/joudnassar/" target="_blank">
+                                                <span class="ico-circle"><i class="bi bi-facebook"></i></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/joudnassar/" target="_blank">
+                                                <span class="ico-circle"><i class="bi bi-instagram"></i></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://wa.me/+963937731544" target="_blank">
+                                                <span class="ico-circle"><i class="bi bi-whatsapp"></i></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/joud-nassar-ab931b23b/"
+                                               target="_blank">
+                                                <span class="ico-circle"><i class="bi bi-linkedin"></i></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <script>
-        // JavaScript function to set the language
-        function setLanguage(lang) {
-            const languageStrings = {
-                'en': {
-                    'heading': 'Welcome',
-                    'content': 'This is a simple multilingual website.'
-                },
-                'es': {
-                    'heading': 'Bienvenido',
-                    'content': 'Este es un sitio web multilingüe simple.'
-                }
-            };
-
-            // Update content based on selected language
-            document.getElementById('content').innerText = languageStrings[lang]['content'];
-
-            // Set the HTML lang attribute for screen readers
-            document.documentElement.lang = lang;
-        }
-    </script>
-</body>
-</html>
+</section>
