@@ -1,17 +1,27 @@
 {
+    "look1": "dnn1",
+    "look2": "dnn2",
+    "look3": "dnn3",
+    "look4": "dnn4",
+    "look5": "dnn5",
+
+
     "title": "Startseite",
     "welcome_message": "Willkommen auf unserer Website!",
     "about_us": "Erfahren Sie mehr über uns und unsere Dienstleistungen.",
     "skills": "Fertigkeiten",
     "interests": "Interessen",
-    "interests_body": "Joud Nassar, ein Software-Ingenieur mit einer Vorliebe für vielfältige Interessen, findet Freude an Programmierherausforderungen, der Erforschung neuer Technologien und dem Eintauchen in die Welt der mobilen Telekommunikation. Joud hat eine Leidenschaft für kontinuierliches Lernen und schätzt die Kreativität bei Problemlösungen und Innovationen.",
+    "interests_body": "Meine vielfältigen Interessen beeinflussen meine Arbeit maßgeblich. Schwimmen fördert meine Kreativität und Problemlösungsfähigkeiten, während Reisen meinen Blickwinkel und meinen Ansatz in der Softwareentwicklung bereichern. Kontinuierliches Lernen durch Technologieblogs stellt sicher, dass ich in einer sich ständig weiterentwickelnden Branche immer auf dem neuesten Stand bleibe.",
+
     "who_am_i": "Wer bin ich eigentlich?",
-    "who_am_i_body": "Joud Nassar, ein engagierter Software-Ingenieur, hat einen Abschluss der Universität Damaskus und trägt als Full-Stack-Entwickler bei Syriatel mobile telecom maßgeblich zur technischen Landschaft bei. Joud hat eine Leidenschaft für die Entwicklung nahtloser und effizienter Softwarelösungen und ist bestrebt, an der Spitze des technologischen Fortschritts zu bleiben. Durch sein an der Universität Damaskus erworbenes Fachwissen und seine Berufserfahrung bei Syriatel ist Joud ein wertvoller Aktivposten, der sich im dynamischen Bereich der Softwareentwicklung ständig weiterentwickelt. Dank seiner soliden Ausbildung bringt Joud vielseitige Fähigkeiten mit, die er sowohl im Bereich der Front-End- als auch der Back-End-Technologien einsetzt.",
+    "who_am_i_body": "Ich bin Softwareentwickler und habe einen Bachelor-Abschluss von der Universität Damaskus. Nach meinem Abschluss begann ich meine berufliche Laufbahn bei Syriatel Mobile Telecom, dem führenden Anbieter von Mobilfunkdiensten in Syrien. In meiner Rolle als Softwareentwickler war ich für die Wartung des Systems verantwortlich, das die Sendemasten verwaltet. Meine Fachgebiete sind die Entwicklung von mobilen und Webanwendungen. Mein Alleinstellungsmerkmal ist meine Fähigkeit, innovative Softwarelösungen zu liefern, die die Telekommunikationsinfrastruktur verbessern.",
     "my_name": "Ich bin Joud Nassar",
     "career": "",
     "message_me": "Schreib mir",
+
+
     "get_in_touch": "Kontakt aufnehmen",
-    "get_in_touch_description": "Hallo, ich bin Joud Nassar aus Damaskus. Als Fachmann für Softwaretechnik bin ich gerne bereit für Verbindungen und Diskussionen über unsere gemeinsamen Interessen. Ich freue mich darauf, von Ihnen zu hören.",
+    "get_in_touch_description": "Hallo, ich bin Joud Nassar und lebe in Dubai, Vereinigte Arabische Emirate. Als Junior in der Softwaretechnik stehe ich gerne für Verbindungen und Diskussionen zu unseren gemeinsamen Interessen zur Verfügung. Ich freue mich darauf, von Ihnen zu hören.",
     "sender_name_hint": "Ihr Name",
     "sender_email_hint": "Ihre E-Mail",
     "sender_subject_hint": "Betreff",
@@ -24,12 +34,17 @@
     "educational_background": "BILDUNGSABSCHLUSS",
     "educational_background_description": "Ich habe einen Abschluss\nin Software Engineering von der Universität Damaskus in Syrien, der mir eine starke Grundlage für innovatives Problemlösen im Technologiebereich vermittelt.",
     "work_experience": "BERUFSERFAHRUNG",
-    "work_experience_description": "Mit Fokus auf Exzellenz gedeihe ich als Full Stack Developer bei Syriatel Mobile Telecom, indem ich innovative Lösungen einbringe und meine Fähigkeiten nutze, um die Technologie im dynamischen Telekommunikationsbereich voranzutreiben.",
-    "languages": "SPRACHEN",
+    "work_experience_description": "Mit Fokus auf Exzellenz blühe ich als Full Stack Entwickler bei Syriatel Mobile Telecom auf, indem ich innovative Lösungen liefere und die Technologie in der Telekommunikationsbranche vorantreibe. Zusätzlich arbeite ich freiberuflich und biete maßgeschneiderte Softwarelösungen an.",    "languages": "SPRACHEN",
     "languages_description": "Arabisch: <b>Mutter Sprache</b>\nEnglisch: <b>B2</b> Niveau\nDeutsch: <b>B2</b> Niveau",
-    "testimonials_description_1": "Joud Nassar, ein erfahrener Software-Ingenieur, verbindet technisches Fachwissen mit einer \nLeidenschaft für Innovation und schafft so wirkungsvolle Lösungen im digitalen Bereich.",
 
-    "explore_gitHub": "Projekt auf GitHub erkunden",
+    "testimonials_description_1": "Optimierung von Telekommunikationssystemen durch innovative Softwarelösungen bei Syriatel Mobile Telecom.",
+    "testimonials_description_2": "Verbesserung von Bildungssystemen durch mobile Apps und Datenbanken an der Universität Damascus.",
+    "testimonials_description_3": "Bereitstellung maßgeschneiderter Softwarelösungen mit Fokus auf Qualität.",
+
+
+
+
+"explore_gitHub": "Projekt auf GitHub erkunden",
     "project1_description":"de1",
     "project2_description":"de2",
     "project3_description":"de3",

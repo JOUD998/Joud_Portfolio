@@ -226,9 +226,13 @@ a:hover {
 
 .socials ul li {
   display: inline-block;
+
 }
 
 .socials .ico-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 40px;
   width: 40px;
   font-size: 1.2rem;
@@ -240,6 +244,7 @@ a:hover {
 }
 
 .socials .ico-circle:hover {
+
   background-color: #0078ff;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
