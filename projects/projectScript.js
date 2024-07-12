@@ -11,8 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Generate project cards and modals
     projects.forEach(function (project) {
-        var project_description = "project" + counter + "_" + "description";
-        var projectInnerDescription = "look" + counter;
+        var project_description = "look" + counter;
 
         var image_id = "myImage" + counter;
 
@@ -48,9 +47,8 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="modal" id="modal${counter}">
                 <span class="close" onclick="document.getElementById('modal${counter}').style.display='none'">&times;</span>
                 <img class="modal-content" id="img${counter}">
-                <div class="modal-caption">
+                <div class="modal-caption"  data-i18n= ${project_description}>
            
-                    <h1 data-i18n= ${projectInnerDescription}></h1>
                 </div>
             </div>
         `;

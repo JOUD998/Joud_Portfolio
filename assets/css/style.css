@@ -1313,6 +1313,11 @@ a:hover {
   color: #4e4e4e;
   padding: 0;
   margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  width: 100%;
 
 }
 
@@ -1639,4 +1644,12 @@ footer .credits a {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
+}
+
+
+.modal-caption {
+  font-size: 20px;
+  color: lightgray;
+  text-align: center;
+  padding: 30px;
 }

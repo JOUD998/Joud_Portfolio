@@ -1,9 +1,4 @@
 {
-    "look1": "dnn1",
-    "look2": "dnn2",
-    "look3": "dnn3",
-    "look4": "dnn4",
-    "look5": "dnn5",
 
 
     "title": "Startseite",
@@ -36,23 +31,18 @@
     "work_experience": "BERUFSERFAHRUNG",
     "work_experience_description": "Mit Fokus auf Exzellenz blühe ich als Full Stack Entwickler bei Syriatel Mobile Telecom auf, indem ich innovative Lösungen liefere und die Technologie in der Telekommunikationsbranche vorantreibe. Zusätzlich arbeite ich freiberuflich und biete maßgeschneiderte Softwarelösungen an.",    "languages": "SPRACHEN",
     "languages_description": "Arabisch: <b>Mutter Sprache</b>\nEnglisch: <b>B2</b> Niveau\nDeutsch: <b>B2</b> Niveau",
-
     "testimonials_description_1": "Optimierung von Telekommunikationssystemen durch innovative Softwarelösungen bei Syriatel Mobile Telecom.",
     "testimonials_description_2": "Verbesserung von Bildungssystemen durch mobile Apps und Datenbanken an der Universität Damascus.",
     "testimonials_description_3": "Bereitstellung maßgeschneiderter Softwarelösungen mit Fokus auf Qualität.",
-
-
-
-
-"explore_gitHub": "Projekt auf GitHub erkunden",
-    "project1_description":"de1",
-    "project2_description":"de2",
-    "project3_description":"de3",
-    "project4_description":"de4",
-    "project5_description":"de5",
+    "explore_gitHub": "Projekt auf GitHub erkunden",
     "contact_header": "Kontakt",
     "achievements_header": "Erfolge",
     "projects_header": "Projekte",
     "about_header": "Über",
-    "home_header": "Startseite"
+    "home_header": "Startseite",
+    "look1": "Dies ist meine persönliche Portfolio-Website, die mit HTML, CSS, Bootstrap und JavaScript entwickelt wurde. Sie enthält verschiedene Abschnitte wie Wer bin ich, Interessen, Erfolge und Kontakt aufnehmen. Der Abschnitt 'Kontakt aufnehmen' wird von EmailJS unterstützt, um die Kontaktfunktionalität zu ermöglichen.",
+    "look2": "Die Fayrouz Caffe App wurde mit dem Flutter-Framework entwickelt, um den Kunden dieses Cafés zu helfen, die Optionen zu sehen, die sie bestellen können. Die Anwendung enthält einen Beschreibungsabschnitt für jedes Produkt und ein Video des Produkts. Das Fayrouz Caffe befindet sich in der Al Hadaraa Straße, Homs, Syrien.",
+    "look3": "Ich habe den Front-End-Bereich dieser mobilen Anwendung entwickelt. Die Covid-19-App zeigt dem Benutzer die weltweite Ausbreitung des Coronavirus. Sie zeigt die Anzahl der Infizierten, Genesenen und Verstorbenen nach Ländern an und gibt einfache Empfehlungen, wie man sich vor dem Virus schützen kann.",
+    "look4": "Die Aurora Wasset Mobile-App wurde für ein Maklerunternehmen in Syrien entwickelt, das auf den Kauf und Verkauf von Autos und Wohnungen spezialisiert ist. Ich war für den Front-End-Bereich dieser App verantwortlich. Die Anwendung bietet den Benutzern eine benutzerfreundliche Oberfläche, um verfügbare Autos und Wohnungen zu durchsuchen, detaillierte Beschreibungen und Bilder anzusehen und Makler für weitere Informationen zu kontaktieren. Aurora Wasset zielt darauf ab, den Prozess des Kaufs und Verkaufs von Immobilien in Syrien zu optimieren und allen Benutzern ein reibungsloses und effizientes Erlebnis zu gewährleisten.",
+    "look5": "Für mein Abschlussprojekt an der Universität Damaskus habe ich eine Anwendung für die Dar Al Hekmah Schule in Damaskus, Syrien, entwickelt. Die App hilft den Eltern, verschiedene Aspekte des Schullebens ihrer Kinder zu überwachen. Zu den Funktionen gehören das Anzeigen von Anwesenheitsaufzeichnungen, das Verfolgen bezahlter und ausstehender Raten, das Überprüfen der Noten und Prüfungen der Kinder sowie der Zugriff auf Chat-Räume ähnlich wie bei WhatsApp und Videoanrufe mit Schulmanagern. Darüber hinaus ermöglicht die App den Eltern, den Standort des Schulbusses zu verfolgen, den Aufenthaltsort ihrer Kinder zu erfahren und im Falle von Abwesenheit medizinische Berichte hochzuladen. Das Projekt wurde mit Flutter, Firebase für Backend-Dienste, Standortverfolgung und Agora für Chats und Videoanrufe entwickelt."
 }
